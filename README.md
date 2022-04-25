@@ -35,7 +35,9 @@ let a = 'hello' a.replace(/^/,'1') // 1hello
 let a = 'hello' a.replace(/$/,'1') // hello1
 
 let z = /^[a-z0-9]{10}$/
+
 z.test('1222131212') true
+
 let z = /^([a-z0-9_]{1,})@qq\.([a-z]{1,3})$/
 
 ## 浏览器调试
