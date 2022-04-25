@@ -4,9 +4,9 @@
 
 例子 "axios": "0.24.0",
 
-- 更新最新版本
-  ^ 更新次要版本
-  ~ 更新补丁
+\- 更新最新版本
+^ 更新次要版本
+~ 更新补丁
 
 更新指定版本 npm i axios@0.26.0
 
@@ -28,9 +28,11 @@
 正则 api https://tool.oschina.net/uploads/apidocs/jquery/regexp.html
 正则可视化网址 https://regexper.com/
 
-^匹配开头 $匹配结尾 \b匹配单词边界 ?=xxx
-let a = 'hello'  a.replace(/^/,'1')  // 1hello
-let a = 'hello'  a.replace(/$/,'1') // hello1
+^匹配开头 $匹配结尾 \b 匹配单词边界 ?=xxx
+
+let a = 'hello' a.replace(/^/,'1') // 1hello
+
+let a = 'hello' a.replace(/$/,'1') // hello1
 
 let z = /^[a-z0-9]{10}$/
 z.test('1222131212') true
