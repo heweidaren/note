@@ -34,8 +34,11 @@ let a = 'hello'  a.replace(/$/,'1') // hello1
 
 let z = /^[a-z0-9]{10}$/
 z.test('1222131212') true
+let z = /^([a-z0-9_]{1,})@qq\.([a-z]{1,3})$/
 
-## 调试
+## 浏览器调试
+
+console.log('%c 测试','color:red'); 命令行打印颜色
 
 ## node
 
