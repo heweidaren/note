@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "lib": ["es2017", "esnext.asynciterable", "dom"],
+    "outDir": "./dist",
+    "strict": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["./src/*"]
+    },
+    "esModuleInterop": true
+  }
+}
