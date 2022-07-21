@@ -2,6 +2,8 @@
 
 ### npm 篇
 
+![image](./assets/npm.jpg)
+
 例子 "axios": "0.24.0",
 
 \- 更新最新版本
@@ -9,6 +11,8 @@
 ~ 更新补丁
 
 更新指定版本 npm i axios@0.26.0
+
+npm config get cache 查看缓存
 
 #### 发布 npm 包
 
@@ -20,6 +24,7 @@
     npm publish 发布 第一次发布ts版本 需要加–access=publi  声明公共 否则收费
 
 下载指定包 npm install front-date@1.0.7
+强制更新 $ npm install front-date --force
 
 ## 正则
 
