@@ -2,7 +2,12 @@
 # yarn lockfile v1
 
 
-front-date@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/front-date/-/front-date-1.0.6.tgz#a3881f599dd270e7d9b2b025baa05110d4b8f5ce"
-  integrity sha512-iDrS19nxrat+I+yGGPvNbf/TGb1EibG6FZ8P6YY8HOP/ATeGTg97jmfY+VKPnjRIZPOccvB+EQkOBzaK8q77Yw==
+"front-date@^1.0.6":
+  "integrity" "sha512-iDrS19nxrat+I+yGGPvNbf/TGb1EibG6FZ8P6YY8HOP/ATeGTg97jmfY+VKPnjRIZPOccvB+EQkOBzaK8q77Yw=="
+  "resolved" "https://registry.npmjs.org/front-date/-/front-date-1.0.6.tgz"
+  "version" "1.0.6"
+
+"loadsh@^0.0.4":
+  "integrity" "sha512-U+wLL8InpfRalWrr+0SuhWgGt10M4OyAk6G8xCYo2rwpiHtxZkWiFpjei0vO463ghW8LPCdhqQxXlMy2qicAEw=="
+  "resolved" "https://registry.npmjs.org/loadsh/-/loadsh-0.0.4.tgz"
+  "version" "0.0.4"

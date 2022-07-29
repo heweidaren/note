@@ -2,9 +2,15 @@
 # yarn lockfile v1
 
 
-"front-date@^1.0.6", "front-date@^1.0.9":
-  "integrity" "sha512-iwcbVXsQVMlWxu6MhZDC0EBJ8ZjiJmblBGERPqKPvMj1A34d0Z6z8M6Ubp0aZhcgTcwnWNLKMlAFPxC3A2l5AQ=="
-  "resolved" "https://registry.npmjs.org/front-date/-/front-date-1.0.9.tgz"
-  "version" "1.0.9"
+"front-date@^1.0.6", "front-date@^1.1.1":
+  "integrity" "sha512-sA1kOSr4f392b3vKV3+Giu5mrAhWK5qyLqdiECRazeLa6i3ZZm0cDK0S8FcSQg8TmLuOLL9aepngYM6VHMR0vg=="
+  "resolved" "https://registry.npmjs.org/front-date/-/front-date-1.1.1.tgz"
+  "version" "1.1.1"
   dependencies:
     "front-date" "^1.0.6"
+    "loadsh" "^0.0.4"
+
+"loadsh@^0.0.4":
+  "integrity" "sha512-U+wLL8InpfRalWrr+0SuhWgGt10M4OyAk6G8xCYo2rwpiHtxZkWiFpjei0vO463ghW8LPCdhqQxXlMy2qicAEw=="
+  "resolved" "https://registry.npmjs.org/loadsh/-/loadsh-0.0.4.tgz"
+  "version" "0.0.4"
